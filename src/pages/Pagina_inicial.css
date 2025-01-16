@@ -1,0 +1,40 @@
+:root{
+
+    --cor_um: #fff;
+    --cor_dois: #000;
+    --cor_tres: #fff;
+    --cor_vinte: #00813c8e;
+    --cor_cinco: #d12525;
+    --cor_seis: #ffb936;
+    --cor_dezeseis: #212121;
+    --cor_sete: #00813d;
+    --cor_oito: #5c5c5b;
+    --cor_nove: #d9d9d9;
+    --cor_dez: #ffffff2b;
+    --cor_onze: #1c2539;
+    --cor_doze: #030734;
+    --cor_treze: #ff9f0d;
+    --cor_quatorze: #f4f1ea;
+    --cor_quinze: #df0a0a0d;
+    --tipografia_primaria: 'Bebas Neue', serif;
+    --tipografia_secundaria: "Exo 2", serif;
+}
+
+body{
+
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar{
+
+    width: 0.5vw;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--cor_vinte)
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--cor_sete)
+}

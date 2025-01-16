@@ -1,0 +1,138 @@
+:root{
+
+    --cor_um: #fff;
+    --cor_dois: #000;
+    --cor_tres: #fff;
+    --cor_quatro: #00813d;
+    --cor_cinco: #d12525;
+    --cor_seis: #ffb936;
+    --cor_dezeseis: #212121;
+    --cor_sete: #00813d;
+    --cor_oito: #5c5c5b;
+    --cor_nove: #d9d9d9;
+    --cor_dez: #ffffff2b;
+    --cor_onze: #1c2539;
+    --cor_doze: #030734;
+    --cor_treze: #ff9f0d;
+    --cor_quatorze: #f4f1ea;
+    --cor_quinze: #df0a0a0d;
+    --tipografia_primaria: 'Bebas Neue', serif;
+    --tipografia_secundaria: "Exo 2", serif;
+}
+
+.propaganda_container{
+
+    display: flex;
+    align-items: center;
+
+    height: 7vh;
+
+    border-bottom: 0.01vh solid var(--cor_nove);
+
+    background-color: var(--cor_quatorze);
+}
+
+.propaganda_container img{
+
+    width: 2vw;
+    height: 2vw;
+
+    margin-left: 2vw;
+    margin-right: 1vw;
+}
+
+.propaganda_container ul{
+
+    display: flex;
+    align-items: center;
+
+    list-style-type: none;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5vw;
+}
+
+.propaganda_container li{
+
+    font-family: var(--tipografia_secundaria);
+
+    color: var(--cor_dezeseis);
+}
+
+.propaganda_container span{
+
+    font: var(--tipografia_primaria);
+    font-weight: bolder;
+
+    color: var(--cor_cinco);
+}
+
+.header_container{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 13vh;
+
+    border-top: 0.1vh solid var(--dez);
+    border-bottom: 0.1vh solid var(--nove);
+
+    background-color: var(--cor_quatorze);
+}
+
+.logo_container img{
+
+    width: 14vw;
+}
+
+.hyperlinks_container a{
+
+    margin-left: 2.5rem;
+
+    font-family: var(--tipografia_primaria);
+    font-size: 1.6rem;
+    font-size: bold;
+
+    text-decoration: none;
+    color: var(--cor_dezeseis);
+}
+
+.hyperlinks_container a:hover{
+    
+    transition: 0.5s;
+
+    color: var(--cor_cinco);
+}
+
+.botao_container button{
+
+    width: 13vw;
+    height: 7vh;
+
+    cursor: pointer;
+
+    border-radius: 0.5vw;
+    border: 0;
+
+    font-family: var(--tipografia_primaria);
+    font-size: 1.2rem;
+
+    color: var(--cor_um);
+    background-color: var(--cor_cinco);
+}
+
+.botao_container button:hover{
+
+    transition: 0.5s;
+
+    background-color: var(--cor_quatro);
+}
+
+.botao_container button:not(:hover){
+
+    transition: 0.5s;
+
+    background-color: var(--cor_cinco);
+}

@@ -1,0 +1,105 @@
+:root{
+
+    --cor_um: #fff;
+    --cor_dois: #000;
+    --cor_tres: #fff;
+    --cor_quatro: #00813d;
+    --cor_cinco: #d12525;
+    --cor_seis: #ffb936;
+    --cor_dezeseis: #212121;
+    --cor_sete: #00813d;
+    --cor_oito: #5c5c5b;
+    --cor_nove: #d9d9d9;
+    --cor_dez: #ffffff2b;
+    --cor_onze: #1c2539;
+    --cor_doze: #030734;
+    --cor_treze: #ff9f0d;
+    --cor_quatorze: #f4f1ea;
+    --cor_quinze: #df0a0a0d;
+    --cor_dezesete: #005f2c;
+    --tipografia_primaria: 'Bebas Neue', serif;
+    --tipografia_secundaria: "Exo 2", serif;
+}
+
+.banner_container{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 90vh;
+
+    background-image: url('./src/assets/img/hero/hero-bg-2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 99%;
+}
+
+.container_texto_banner{
+
+    margin-left: 5vw;
+
+}
+
+.container_texto_banner h1{
+
+    width: 70%;
+
+    margin-bottom: 0px;
+
+    font-family: var(--tipografia_primaria);
+    font-size: 4rem;
+
+    color: var(--cor_um);
+}
+
+.container_texto_banner h2{
+
+    font-family: var(--tipografia_secundaria);
+    font-weight: bold;
+
+    color: var(--cor_quatorze);
+}
+
+.container_texto_banner span{
+
+    margin-left: 1vw;
+
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: var(--tipografia_primaria);
+}
+
+.container_texto_banner button{
+
+    width: 13vw;
+    height: 7vh;
+
+    cursor: pointer;
+
+    border-radius: 0.5vw;
+    border: 0;
+
+    font-family: var(--tipografia_primaria);
+    font-size: 1.2rem;
+
+    color: var(--cor_um);
+    background-color: var(--cor_quatro);
+}
+
+.container_texto_banner button:hover{
+
+    transition: 0.5s;
+
+    color: var(--cor_dez);
+    background-color: var(--cor_dezesete);
+}
+
+.container_texto_banner button:not(:hover){
+
+    transition: 0.5s;
+
+    color: var(--cor_um);
+    background-color: var(--cor_quatro);
+}
